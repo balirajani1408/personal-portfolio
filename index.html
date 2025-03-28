@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="sectionHome">
+      <div class="main-bg-container">
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png"
+          class="image"
+        />
+        <h1 class="heading">My Projects</h1>
+        <p class="paragraph">
+          These are few of my static website projects that i have developed
+          using Html,Css abd bootstrap
+        </p>
+        <div class="d-flex justify-content-center">
+          <div
+            class="d-flex flex-row p-3 justify-content-around flex-wrap w-75"
+          >
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png"
+              onclick="display('sectionAdvancedTechnologies')"
+              class="p-3 w-50 clickable-image"
+            />
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png"
+              onclick="display('sectionDiwali')"
+              class="p-3 w-50 clickable-image"
+            />
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png"
+              onclick="display('sectionMeals')"
+              class="p-4 w-50 clickable-image"
+            />
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png"
+              onclick="display('sectionNews')"
+              class="p-4 w-50 clickable-image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="sectionAdvancedTechnologies"
+      class="d-flex flex-column align-items-center"
+    >
+      <h1>Advanced Technologies</h1>
+      <div class="advanced-bg-container d-flex flex-column justify-content-end">
+        <div class="advanced-card">
+          <h1 class="advanced-heading">Advanced Technologies</h1>
+          <p class="para">
+            Machinery and equipment developed from the application of scientific
+            knowledge.
+          </p>
+          <button class="btn-primary button-1">Learn more</button>
+          <button class="btn-primary button-2" onclick="display('sectionHome')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionDiwali" class="d-flex flex-column align-items-center">
+      <h1>Diwali Page</h1>
+      <div class="diwali-bg-container">
+        <h1 class="diwali-main-heading">Celebrate Diwali with your friends</h1>
+      </div>
+      <div class="diwali-button-container">
+        <div class="d-flex flex-row p-3 justify-content-around flex-wrap">
+          <div class="bottom-card">
+            <img
+              class="image-class"
+              src="https://th.bing.com/th/id/OIP.MJTg89UulEHVoAdnc7ph1wHaE8?w=263&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            />
+            <h1 class="diwali-card-heading">Diwali air Ballon</h1>
+            <p class="diwali-card-price">Rs.369</p>
+          </div>
+          <div class="bottom-card">
+            <img
+              class="image-class"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLC0D6UDKO2MITIoAIgCm0Ro3GYzpQ9Z04B9ocv1QrBh-SvVBXRtj_b0&s"
+            />
+            <h1 class="diwali-card-heading">Diwali-lamp</h1>
+            <p class="diwali-card-price">Rs.50</p>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-row justify-content-center d-flex flex-row p-3 justify-content-around flex-wrap"
+        >
+          <div class="bottom-card">
+            <img
+              class="image-class"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAPRMxnnOKm-igcmqOSyNDKEniaAIO4CjIwar0yp0xdV4Qpt7baALPQ4M&s"
+            />
+            <h1 class="diwali-card-heading">Sparklers</h1>
+            <p class="diwali-card-price">Rs.150</p>
+          </div>
+          <div class="bottom-card">
+            <img
+              class="image-class"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnmrabd3SVsTIlUfCYS_h_Z6wNYmM_3c6_lnaKJSCI_RjxV7_V_H7t-PQ&s"
+            />
+            <h1 class="diwali-card-heading">Fire Cracker</h1>
+            <p class="diwali-card-price">Rs.560</p>
+          </div>
+        </div>
+        <button class="btn btn-primary" onclick="display('sectionHome')">
+          back
+        </button>
+      </div>
+    </div>
+
+    <div id="sectionMeals" class="d-flex flex-column align-items-center">
+      <h1>Happy Meals</h1>
+      <div class="meals-bg-container d-flex flex-column justify-content-end">
+        <div class="advanced-card">
+          <h1 class="advanced-heading">Advanced Technologies</h1>
+          <p class="para">Discover the best foods over the 1,000 restaurants</p>
+          <button class="btn button-1">Book Now</button>
+          <button class="btn-primary button-2" onclick="display('sectionHome')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sectionNews" class="d-flex flex-column align-items-center">
+      <h1>News paper artical page</h1>
+      <div class="news-bg-container d-flex flex-column justify-content-end">
+        <div class="advanced-card">
+          <h1 class="advanced-heading">
+            All educational institutions in assam to reopen from November 2
+          </h1>
+          <p class="para">
+            Educational institutes across Assam will reopen from November 2
+            onwards, stated education minister Himanta Biswa Sarma during a
+            press conference on October 17. Sarma informed that only students of
+            classes 8, 10 and 12 will have exams for the year. As for class 8,
+            the school can conduct private exams.
+          </p>
+          <button class="btn button-1">Read more</button>
+          <button class="btn-primary button-2" onclick="display('sectionHome')">
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>

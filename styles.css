@@ -1,0 +1,115 @@
+.main-bg-container{
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 10px;
+}
+.image{
+    height: 40vh;
+    width: 40vw;
+}
+.heading{
+    font-family: "bree serif";
+    color:#183b56;
+    font-size: 25px;
+    text-align: center;
+}
+.paragraph{
+    font-family: bree serif;
+    color:#616e7c;
+    font-size: 15px;
+    text-align: center;
+}
+.advanced-bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png");
+   background-size: cover;
+  
+    height: 100vh;
+    width: 60vw;
+}
+.advanced-card{
+    background-color: #ffffff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px;
+}
+.advanced-heading{
+    color: #5752ab;
+    font-family: "bree serif";
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+}
+.para{
+    color: #323f4b;
+    font-family: roboto;
+    font-size: 15px;
+    margin: 10px;
+}
+.button-2{
+   background-color: #5752ab;
+   border-color: #d7dfe9;
+   border-radius: 5px;
+   height: 30px;
+   width: 100px;
+   color: #ffffff;
+   border-width: 1px;
+   font-size: 12px;
+   font-family: "roboto";
+
+
+}
+.diwali-bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png");
+    background-size: cover;
+    height: 30vh;
+    width: 60vh;
+}
+.diwali-main-heading{
+    color: white;
+    font-family: "caveat";
+    padding: 25px;
+    font-size: 30px;
+    width: 180px;
+}
+.diwali-button-container{
+    text-align: center;
+    background-color: #e6f6ff;
+    padding: 15px;
+    width: 60vh;
+}
+.diwali-card-heading{
+    color: #616e7c;
+    font-family:"roboto";
+    font-weight: bold;
+    font-size: 15px;
+}
+.meals-bg-container{
+    background-image: url("https://media.istockphoto.com/id/1397973112/photo/assortment-of-various-kinds-of-indian-cousine-on-dark-rusty-table.jpg?s=612x612&w=0&k=20&c=R5XnXgP1jWnGM5PF7OUfvLW_NQhAcaGuJlWp6hl0SoQ=");
+   background-size: cover;
+  
+    height: 100vh;
+    width: 60vw;
+}
+.news-bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png");
+   background-size: cover;
+  
+    height: 100vh;
+    width: 60vw;
+}
+.bottom-card{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.image-class{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+.clickable-image{
+    cursor: pointer;
+    border-radius: 5px;
+}
